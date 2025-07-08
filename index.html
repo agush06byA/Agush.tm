@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>AGUSH VPN</title>
+  <title>AGUSH APX VPN</title>
 
   <!-- Google Font -->
   <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet"/>
@@ -12,14 +12,15 @@
     body {
       margin: 0;
       font-family: 'Rubik', sans-serif;
-      background-color: #000;
+      background: url('https://i.imgur.com/DUf1PFY.jpg') no-repeat center center fixed;
+      background-size: cover;
       color: white;
     }
 
     header {
       text-align: center;
       padding: 30px 20px 10px;
-      background-color: #000;
+      background: rgba(0,0,0,0.6);
     }
 
     header img {
@@ -35,6 +36,7 @@
 
     section {
       padding: 40px 20px;
+      background: rgba(0, 0, 0, 0.6);
     }
 
     h2 {
@@ -44,7 +46,6 @@
       color: #ff5252;
     }
 
-    /* VPN Blocks */
     .vpn-box {
       display: flex;
       align-items: center;
@@ -62,7 +63,6 @@
 
     .vpn-box:nth-child(2) { animation-delay: 0.2s; }
     .vpn-box:nth-child(3) { animation-delay: 0.4s; }
-    .vpn-box:nth-child(4) { animation-delay: 0.6s; }
 
     @keyframes fadeInUp {
       to {
@@ -74,7 +74,7 @@
     .vpn-box img {
       width: 80px;
       height: 80px;
-      border-radius: 50%;
+      border-radius: 12px;
       object-fit: contain;
     }
 
@@ -93,7 +93,6 @@
       color: #ccc;
     }
 
-    /* Кнопки */
     .vpn-action {
       display: flex;
       flex-wrap: wrap;
@@ -113,7 +112,7 @@
       text-decoration: none;
       border-radius: 25px;
       color: #fff;
-      transition: 0.3s;
+      transition: transform 0.3s, box-shadow 0.3s;
       box-shadow: 0 0 10px rgba(255,255,255,0.1);
     }
 
@@ -127,7 +126,7 @@
       height: 18px;
     }
 
-    .btn.blue { background-color: #0088cc; }
+    .btn.blue  { background-color: #0088cc; }
     .btn.green { background-color: #00c853; }
     .btn.black { background-color: #333; }
 
@@ -144,7 +143,7 @@
     }
 
     footer {
-      background: #111;
+      background: rgba(0,0,0,0.6);
       text-align: center;
       padding: 20px;
       font-size: 14px;
@@ -155,7 +154,6 @@
       color: #ff5252;
       text-decoration: none;
     }
-
     footer a:hover {
       text-decoration: underline;
     }
@@ -164,78 +162,76 @@
 <body>
 
 <header>
-  <img src="https://chat.openai.com/share-image/9d9a6a36-bdc7-4747-81e8-0a1710911592" alt="AGUSH Logo"/>
+  <img src="https://i.imgur.com/your_logo.png" alt="AGUSH APX Logo"/>
   <h1>AGUSH APX VPN</h1>
 </header>
 
 <section>
-  <h2>📦 Тарифы и VPN-программы</h2>
+  <h2>📦 Тарифы и VPN‑программы</h2>
 
-  <!-- VPN 1 -->
   <div class="vpn-box">
-    <img src="https://i.imgur.com/nvqkDqz.png" alt="NPV Tunnel">
+    <img src="https://i.imgur.com/npv-logo.png" alt="NPV Tunnel"/>
     <div class="vpn-info">
       <h3>NPV Tunnel</h3>
-      <p>Hepde: <strong>70m</strong></p>
-      <p>Aýlyk: <strong>200m</strong></p>
-      <p>Android / iOS — Bez blok</p>
+      <p>Hepde / Неделя: <strong>70 TMT</strong></p>
+      <p>Aýlyk / Месяц: <strong>200 TMT</strong></p>
+      <p>Android / iOS — bez blok / без блоков</p>
     </div>
     <div class="vpn-action">
       <a class="btn blue" href="https://t.me/agush06" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon"> Telegram
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon"/> Telegram
       </a>
       <a class="btn green" href="https://linkm.me/users/agabek_06" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" alt="LinkM" class="icon"> LinkM
+        <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" alt="LinkM" class="icon"/> LinkM
       </a>
       <a class="btn black" href="https://imo.im" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670245.png" alt="Imo" class="icon"> Imo: agush006
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670245.png" alt="Imo" class="icon"/> Imo: agush006
       </a>
     </div>
   </div>
 
-  <!-- VPN 2 -->
   <div class="vpn-box">
-    <img src="https://i.imgur.com/jZRW28w.png" alt="HAPP VPN">
+    <img src="https://i.imgur.com/happ-logo.png" alt="HAPP VPN"/>
     <div class="vpn-info">
       <h3>HAPP VPN</h3>
-      <p>Hepde: <strong>70m</strong></p>
-      <p>Aýlyk: <strong>200m</strong></p>
-      <p>Android / iOS — Bez blok</p>
+      <p>Hepde / Неделя: <strong>70 TMT</strong></p>
+      <p>Aýlyk / Месяц: <strong>200 TMT</strong></p>
+      <p>Android / iOS — bez blok / без блоков</p>
     </div>
     <div class="vpn-action">
       <a class="btn blue" href="https://t.me/agush06" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon"> Telegram
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon"/> Telegram
       </a>
       <a class="btn green" href="https://linkm.me/users/agabek_06" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" alt="LinkM" class="icon"> LinkM
+        <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" alt="LinkM" class="icon"/> LinkM
       </a>
       <a class="btn black" href="https://imo.im" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670245.png" alt="Imo" class="icon"> Imo: agush006
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670245.png" alt="Imo" class="icon"/> Imo: agush006
       </a>
     </div>
   </div>
 
-  <!-- VPN 3 -->
   <div class="vpn-box">
-    <img src="https://i.imgur.com/H6U2exN.png" alt="V2 BOX">
+    <img src="https://i.imgur.com/v2box-logo.png" alt="V2 BOX"/>
     <div class="vpn-info">
       <h3>V2 BOX</h3>
-      <p>Hepde: <strong>70m</strong></p>
-      <p>Aýlyk: <strong>200m</strong></p>
-      <p>Android / iOS — Bez blok</p>
+      <p>Hepde / Неделя: <strong>70 TMT</strong></p>
+      <p>Aýlyk / Месяц: <strong>200 TMT</strong></p>
+      <p>Android / iOS — bez blok / без блоков</p>
     </div>
     <div class="vpn-action">
       <a class="btn blue" href="https://t.me/agush06" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon"> Telegram
+        <img src="https://cdn-icons-png.flaticon.com/512/2111/2111646.png" alt="Telegram" class="icon"/> Telegram
       </a>
       <a class="btn green" href="https://linkm.me/users/agabek_06" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" alt="LinkM" class="icon"> LinkM
+        <img src="https://cdn-icons-png.flaticon.com/512/535/535234.png" alt="LinkM" class="icon"/> LinkM
       </a>
       <a class="btn black" href="https://imo.im" target="_blank">
-        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670245.png" alt="Imo" class="icon"> Imo: agush006
+        <img src="https://cdn-icons-png.flaticon.com/512/3670/3670245.png" alt="Imo" class="icon"/> Imo: agush006
       </a>
     </div>
   </div>
+
 </section>
 
 <footer>
